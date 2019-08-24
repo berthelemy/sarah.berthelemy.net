@@ -5,3 +5,7 @@
 p.caption {
 	font-size: 0.8em;
 }
+
+#header {
+	background-image: none;
+}
