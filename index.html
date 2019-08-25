@@ -114,34 +114,30 @@
 				</header>
 				<div class="inner">
 					<section>
-						<form method="post" action="#">
+						<form action="https://formspree.io/sarah@berthelemy.net" method="POST" />
+						<input type="hidden" name="_subject" value="New message from sarah.berthelemy.net website" />
+						<input type="text" name="_replyto" placeholder="sarah@berthelemy.net" />
+						<input type="hidden" name="_cc" value="mark@berthelemy.net" />
+						<input type="hidden" name="_next" value="https://sarah.berthelemy.net/thanks.html"/>
 							<div class="row gtr-uniform">
 								<div class="col-6 col-12-xsmall">
-									<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+									<input type="text" name="name" id="name" value="" placeholder="Name" />
 								</div>
 								<div class="col-6 col-12-xsmall">
-									<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+									<input type="email" name="email" id="email" value="" placeholder="Email" />
 								</div>
-								<div class="col-12">
-									<select name="demo-category" id="demo-category">
-										<option value="">- Category -</option>
-										<option value="1">Manufacturing</option>
-										<option value="1">Shipping</option>
-										<option value="1">Administration</option>
-										<option value="1">Human Resources</option>
-									</select>
+								
+								<div class="col-4 col-12-small">
+									<input type="checkbox" id="course-particulier" name="course-particulier" checked>
+									<label for="course-particulier">Course particulier</label>
 								</div>
 								<div class="col-4 col-12-small">
-									<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-									<label for="demo-priority-low">Low</label>
+									<input type="checkbox" id="course-professionnel" name="course-professionnel">
+									<label for="course-professionnel">Course professionnel</label>
 								</div>
 								<div class="col-4 col-12-small">
-									<input type="radio" id="demo-priority-normal" name="demo-priority">
-									<label for="demo-priority-normal">Normal</label>
-								</div>
-								<div class="col-4 col-12-small">
-									<input type="radio" id="demo-priority-high" name="demo-priority">
-									<label for="demo-priority-high">High</label>
+									<input type="checkbox" id="edition-de-copie" name="edition-de-copie">
+									<label for="edition-de-copie">Édition de copie</label>
 								</div>
 								<div class="col-6 col-12-small">
 									<input type="checkbox" id="demo-copy" name="demo-copy">
