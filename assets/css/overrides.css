@@ -10,7 +10,23 @@ p.caption {
 	background-image: none;
 }
 
-
-label {
-		color: #535353;
+::-webkit-input-placeholder {
+		color: #535353 !important;
 	}
+
+	:-moz-placeholder {
+		color: #535353 !important;
+	}
+
+	::-moz-placeholder {
+		color: #535353 !important;
+	}
+
+	:-ms-input-placeholder {
+		color: #535353 !important;
+	}
+
+	.formerize-placeholder {
+		color: #535353 !important;
+	}
+
