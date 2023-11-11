@@ -1,0 +1,18 @@
+
+title: Sarah Berthelemy - Handywoman
+description: Small household works, decorating, garden maintenance in and around Le Faouët
+url: https://berthelemy.github.io
+baseurl: /sarah.berthelemy.net
+
+exclude:
+ # from https://github.com/jekyll/jekyll/blob/master/lib/site_template/_config.yml:
+   - .sass-cache/
+   - .jekyll-cache/
+   - gemfiles/
+   - Gemfile
+   - Gemfile.lock
+   - node_modules/
+   - vendor/bundle/
+   - vendor/cache/
+   - vendor/gems/
+   - vendor/ruby/
