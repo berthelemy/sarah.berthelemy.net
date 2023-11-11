@@ -3,6 +3,10 @@
 	color: #edfaee;
 }
 
+#header .button.primary {
+	color:#66894a;
+}
+
 #header p {
 	margin-left:auto;
 }
