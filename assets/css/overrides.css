@@ -2,6 +2,10 @@
 				content: none;
 			}
 
+.image.phone {
+	margin-right: 3em;
+}
+
 p.caption {
 	font-size: 0.8em;
 }
