@@ -3,19 +3,21 @@
 	width: 80%;
 }
 
-.image.phone:before, .image.phone:after {
+/*.image.phone:before, .image.phone:after {
 				content: none;
 			}
 
 .image.phone {
 	margin-right: 3em;
 }
+*/
 
 p.caption {
 	font-size: 0.8em;
 }
 
-#header {
+/*#header {
 	background-image: none;
 }
+*/
 
